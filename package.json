@@ -20,7 +20,8 @@
   },
   "files": [
     "worker.js",
-    "workers/"
+    "workers/",
+    "tests/"
   ],
   "main": "worker.js",    
   "type": "commonjs",  
