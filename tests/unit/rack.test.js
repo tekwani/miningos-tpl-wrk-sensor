@@ -21,7 +21,7 @@ test('WrkSensorRack._getThingBaseType returns sensor', async (t) => {
 test('WrkSensorRack.init sets scheduleAddlStatTfs', async (t) => {
   const rack = Object.create(WrkSensorRack.prototype)
   rack.scheduleAddlStatTfs = []
-  const WrkRack = require('miningos-tpl-wrk-thing/workers/rack.thing.wrk')
+  const WrkRack = require('@tetherto/miningos-tpl-wrk-thing/workers/rack.thing.wrk')
   const superInit = WrkRack.prototype.init
   WrkRack.prototype.init = function () {
   }
